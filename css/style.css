@@ -5,7 +5,7 @@
 body { 
 	font: 16px Helvetica, Sans-Serif; 
 	line-height: 24px; 
-	background: url(../images/noise.jpg); 
+	background: url(../img/noise.jpg); 
 }
 .clear { 
 	clear: both; 
@@ -99,3 +99,16 @@ dd.clear {
 	border-top: 1px solid #83CDE1;
 }
 #footer a { color: #fff; }
+a.top-btn {
+	position: relative;
+	bottom: 25px;
+	left: 90%;
+	display: block;
+	width: 24px;
+	text-indent: -3000px;
+	background: url(../img/top.gif) no-repeat;
+}
+a.top-btn:hover { 
+	background: url(../img/tophover.gif) no-repeat;
+	text-decoration: none;
+}
