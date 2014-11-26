@@ -112,3 +112,13 @@ a.top-btn:hover {
 	background: url(../img/tophover.gif) no-repeat;
 	text-decoration: none;
 }
+.forkme{
+	position:absolute;
+	display:block;
+	top:0;
+	z-index:10;
+	right:0
+}
+.forkme img{
+	border:0
+}
